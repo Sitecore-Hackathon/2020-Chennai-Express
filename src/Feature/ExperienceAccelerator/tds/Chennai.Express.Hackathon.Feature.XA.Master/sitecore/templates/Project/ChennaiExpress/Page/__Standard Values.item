@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {62ED26EE-DA60-4B37-AD9F-039140C585DF}
+database: master
+path: /sitecore/templates/Project/ChennaiExpress/Page/__Standard Values
+parent: {4973376F-B369-435E-B9C0-A25C61959D89}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4973376F-B369-435E-B9C0-A25C61959D89}
+templatekey: Page
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{4973376F-B369-435E-B9C0-A25C61959D89}|{C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 237
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}" /><d id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}" l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" /></r>
+----version----
+language: en
+version: 1
+revision: 026c2476-318e-4151-85ba-2d4036112877
+
+----field----
+field: {0C7785B2-31C1-49D2-A468-E3B738D7CA1E}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 7079
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{22CE6796-9030-4922-B8F7-89EA340F4267}" p:before="*" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=27" s:ph="header" /><r uid="{ED6AFDA9-F412-4200-8964-20AA4C497EAE}" p:after="r[@uid='{22CE6796-9030-4922-B8F7-89EA340F4267}']" s:ds="" s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}" s:par="ColumnWidth1&amp;ColumnWidth2&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=29" s:ph="/header/row-1-27" /><r uid="{5C1E6162-0026-48A7-BB93-296EA413D322}" p:after="r[@uid='{ED6AFDA9-F412-4200-8964-20AA4C497EAE}']" s:ds="{E0C457FA-B03D-464E-9F4D-DE3DC3BB88E4}" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId" s:ph="/header/row-1-27/column-1-29" /><r uid="{74D5E837-70F2-4D45-9047-FB4E677E54E1}" p:after="r[@uid='{5C1E6162-0026-48A7-BB93-296EA413D322}']" s:ds="{29B69324-A165-45A6-9AB4-F42F2F69449C}" s:id="{EECE4E4B-4E5F-42FD-A934-7AFD048AFD03}" s:par="Reset Caching Options&amp;GridParameters&amp;SearchSignature&amp;FieldNames&amp;Styles&amp;TargetSignature&amp;Scope&amp;MaxPredictiveResultsCount=5&amp;DefaultLanguageFilter=%7B7AF59736-D91C-4AA1-8610-1202FDD31D68%7D&amp;SearchResultPage&amp;SearchTextBoxVisible=1&amp;SuggestionsMode=ShowSearchResults&amp;MinSuggestionsTriggerCharacterCount=2&amp;RenderingIdentifier" s:ph="/header/row-1-27/column-2-29" /><r uid="{69A0D9B9-DE0E-4F80-86B4-46D2D8335D58}" p:after="r[@uid='{74D5E837-70F2-4D45-9047-FB4E677E54E1}']" s:ds="" s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}" s:par="ColumnWidth1&amp;ColumnWidth2&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=35" s:ph="/header/row-2-27" /><r uid="{A0AF76A1-C926-4934-838C-1F94FD4E2993}" p:after="r[@uid='{69A0D9B9-DE0E-4F80-86B4-46D2D8335D58}']" s:ds="" s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}" s:par="ColumnWidth1=%7BAA06B912-C4C5-493C-A1F2-9D9C0D7B7425%7D&amp;ColumnWidth2=%7BAA06B912-C4C5-493C-A1F2-9D9C0D7B7425%7D&amp;ColumnWidth3=%7BAA06B912-C4C5-493C-A1F2-9D9C0D7B7425%7D&amp;ColumnWidth4=%7BAA06B912-C4C5-493C-A1F2-9D9C0D7B7425%7D&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=20" s:ph="footer" /><r uid="{1F2093AC-C33F-4335-9547-A9CE58D86B10}" p:after="r[@uid='{A0AF76A1-C926-4934-838C-1F94FD4E2993}']" s:ds="{0C776E36-1B35-4D95-8EC0-548550C3FF1B}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=22" s:ph="/footer/column-1-20" /><r uid="{B880823A-3EE6-4341-B85C-724BBADDDA7B}" p:after="r[@uid='{1F2093AC-C33F-4335-9547-A9CE58D86B10}']" s:ds="{344043DE-5643-4B8E-B1CC-E592C468BCB7}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" s:ph="/footer/column-1-20" /><r uid="{4D019EDE-0F8D-46BC-B8F7-BF311DB4B23E}" p:after="r[@uid='{B880823A-3EE6-4341-B85C-724BBADDDA7B}']" s:ds="{6E58D24A-20F3-47D4-96DB-220E82918D2F}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="/footer/column-1-20" /><r uid="{3F71CF96-7B79-4732-9D3F-BE7FE5B04F50}" p:after="r[@uid='{4D019EDE-0F8D-46BC-B8F7-BF311DB4B23E}']" s:ds="{D2F3C9D3-C5A9-4368-B42F-73BEF6577B8A}" s:id="{EECE4E4B-4E5F-42FD-A934-7AFD048AFD03}" s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7BA5CEBB21-E189-4148-99F6-C1CB0E00D948%7D&amp;Styles&amp;TargetSignature&amp;Scope&amp;MaxPredictiveResultsCount=5&amp;DefaultLanguageFilter=%7B7AF59736-D91C-4AA1-8610-1202FDD31D68%7D&amp;SearchResultPage&amp;SearchTextBoxVisible=1&amp;SuggestionsMode=ShowSearchResults&amp;MinSuggestionsTriggerCharacterCount=2&amp;RenderingIdentifier&amp;DynamicPlaceholderId=26" s:ph="/footer/column-3-20" /><r uid="{5C6339A7-E933-4E7D-9848-BEB430C24DDB}" p:after="r[@uid='{3F71CF96-7B79-4732-9D3F-BE7FE5B04F50}']" s:ds="{6F481EE6-59D2-4AC2-9170-093F54E55893}" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B07FDC788-A49A-4042-8750-A968E35F62F8%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="/footer/column-2-20" /><r uid="{71FF88E7-672B-46A6-8068-385FB72D8CCA}" p:after="r[@uid='{5C6339A7-E933-4E7D-9848-BEB430C24DDB}']" s:ds="{17C3173B-EF24-4038-9C07-AF7FE660F409}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=33" s:ph="/header/row-2-27" /><r uid="{BE7D3D95-9AA7-46D1-A2DC-A65B2A8E8303}" p:after="r[@uid='{71FF88E7-672B-46A6-8068-385FB72D8CCA}']" s:ds="{40D360E7-3AEB-45E3-A3E0-6DF266A4744E}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId" s:ph="/header/row-2-27" /><r uid="{40B1512F-E1EB-4043-B144-9408DD57F85A}" p:after="r[@uid='{BE7D3D95-9AA7-46D1-A2DC-A65B2A8E8303}']" s:ds="{8D94D748-5F62-4682-B296-118AB9C316C5}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId" s:ph="/header/row-2-27" /><r uid="{201CB49E-D691-4826-BFD3-2B19CA51718C}" p:after="r[@uid='{40B1512F-E1EB-4043-B144-9408DD57F85A}']" s:ds="{6AD1E255-9530-4BB6-BC71-F161AE8E596A}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId" s:ph="/header/row-2-27" /><r uid="{6A969A06-C76E-42D4-8654-CE47CECB02F8}" p:after="*[1=2]" s:ds="{53E97F84-861A-4AB1-8E3E-4494A6BAA538}" s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=34" s:ph="/header/row-2-27" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200229T045704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+026c2476-318e-4151-85ba-2d4036112877
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200229T144316Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
