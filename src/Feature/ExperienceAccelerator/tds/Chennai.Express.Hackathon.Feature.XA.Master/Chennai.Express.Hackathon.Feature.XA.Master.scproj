@@ -1,0 +1,56 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>33737d97-e0fc-403b-abfe-aac233abe795</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>Chennai.Express.Hackathon.Feature.XA.Master</AssemblyName>
+    <Name>Chennai.Express.Hackathon.Feature.XA.Master</Name>
+    <RootNamespace>Chennai.Express.Hackathon.Feature.XA.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <SourceWebVirtualPath>/Chennai.Express.Hackathon.Feature.ExperienceAccelerator.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{9ee6c12b-2db8-4f45-9cb5-62585ee2fdd4}|src\Feature\ExperienceAccelerator\code\Chennai.Express.Feature.ExperienceAccelerator\Chennai.Express.Hackathon.Feature.ExperienceAccelerator.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\..\code\Chennai.Express.Feature.ExperienceAccelerator</SourceWebPhysicalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>https://sc93sc.dev.local</SitecoreWebUrl>
+    <InstallSitecoreConnector>False</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
+    <SitecoreDeployFolder>D:\Websites\sc93sc.dev.local</SitecoreDeployFolder>
+    <SitecoreAccessGuid>
+    </SitecoreAccessGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\Chennai.Express.Feature.ExperienceAccelerator\Chennai.Express.Hackathon.Feature.ExperienceAccelerator.csproj">
+      <Project>{9ee6c12b-2db8-4f45-9cb5-62585ee2fdd4}</Project>
+      <Name>Chennai.Express.Hackathon.Feature.ExperienceAccelerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Chennai.Express.Hackathon.%2a" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>
