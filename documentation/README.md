@@ -8,7 +8,8 @@ This document provides the instruction to setup Hackathon site built by Chennai 
 
 ## Pre-requisites
 
-- Sitecore 9.3 Initial Release with SXA Module
+- Sitecore 9.3 Initial Release 
+- SXA Module for Sitecore 9.3
 - Sitecore Powershell Extension 6.0
 
 ## Installation
